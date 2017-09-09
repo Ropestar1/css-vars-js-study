@@ -1,0 +1,11 @@
+/* Use rem for sizes of fonts*/
+html {
+    font-size: 16px;
+}
+
+
+
+/* Media Queries Section */
+@media only screen and (max-width: 480px) {
+
+}
