@@ -1,11 +1,20 @@
-/* Use rem for sizes of fonts*/
-html {
-    font-size: 16px;
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
 }
 
+.controls {
+  margin-bottom: 50px;
+}
 
-
-/* Media Queries Section */
-@media only screen and (max-width: 480px) {
-
+input {
+  width:100px;
 }

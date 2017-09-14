@@ -11,27 +11,26 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- OPTIONAL: add a link to any googlefonts or other fonts here. -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/javascript/app.js"></script>
 </head>
 <body>
 
-	<div class="container">
-		<div class="row">
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		  <div class="col-md-1">.col-md-1</div>
-		</div>
-	</div>
+	<h2>Update CSS Variables with <span class='hl'>JS</span></h2>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="#"></script>
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+
+
 </body>
 </html>
